@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Code Clone') {
             steps {
-                git "https://github.com/Jerin9/terraform-jerin.git"
+                git "https://github.com/Jerin9/terraform-jerin/blob/main/main.tf"
         }
         stage('Version') {
             steps {
