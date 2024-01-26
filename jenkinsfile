@@ -6,6 +6,7 @@ pipeline {
             steps {
                 git "https://github.com/Jerin9/terraform-jerin/blob/main/main.tf"
         }
+}
         stage('Version') {
             steps {
                 sh '''terraform version
